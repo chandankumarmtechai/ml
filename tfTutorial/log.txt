@@ -1,0 +1,1083 @@
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+_EagerConst: (_EagerConst): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+_EagerConst: (_EagerConst): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+_EagerConst: (_EagerConst): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+seed: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+StatelessRandomGetKeyCounter: (StatelessRandomGetKeyCounter): /job:localhost/replica:0/task:0/device:GPU:0
+key_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+counter_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+shape: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+key: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+counter: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+alg: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+StatelessRandomUniformV2: (StatelessRandomUniformV2): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+y: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+z_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+y: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+z_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+y: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AddV2: (AddV2): /job:localhost/replica:0/task:0/device:GPU:0
+z_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+shape: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+key: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+counter: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+alg: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+StatelessRandomNormalV2: (StatelessRandomNormalV2): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Qr: (Qr): /job:localhost/replica:0/task:0/device:GPU:0
+q_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+r_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+DiagPart: (DiagPart): /job:localhost/replica:0/task:0/device:GPU:0
+diagonal_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Sign: (Sign): /job:localhost/replica:0/task:0/device:GPU:0
+y_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+perm: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+Transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+y_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+tensor: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+shape: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+dims: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Fill: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+values_0: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+values_1: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+values_2: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+axis: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+ConcatV2: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+VarHandleOp: (VarHandleOp): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+start: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+stop: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+step: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+RangeDataset: (RangeDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+count: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+RepeatDataset: (RepeatDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+MapDataset: (MapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+components_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+count: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+RepeatDataset: (RepeatDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ZipDataset: (ZipDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+num__parallel__calls: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ParallelMapDatasetV2: (ParallelMapDatasetV2): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+OptionsDataset: (OptionsDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+OptionsDataset: (OptionsDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+value_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+AnonymousIteratorV3: (AnonymousIteratorV3): /job:localhost/replica:0/task:0/device:CPU:0
+dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+MakeIterator: (MakeIterator): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+range: (Range): /job:localhost/replica:0/task:0/device:CPU:0
+RandomShuffle: (RandomShuffle): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+range/start: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/limit: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/delta: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Slice: (Slice): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:CPU:0
+TensorSliceDataset: (TensorSliceDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/begin: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/size: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+args_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+args_2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2: (GatherV2): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2_1: (GatherV2): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_ReNum GPUs Available:  1
+Epoch 1/100
+tVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2/axis: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2_1/axis: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+dims: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Fill: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+sequential_lstm_read_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_lstm_read_1_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_lstm_read_2_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_1_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_cast_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_cast_2_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_cast_3_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_resourceapplyadam_m: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_resourceapplyadam_v: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_1_resourceapplyadam_m: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_1_resourceapplyadam_v: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_2_resourceapplyadam_m: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_2_resourceapplyadam_v: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_3_resourceapplyadam_m: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_3_resourceapplyadam_v: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_4_resourceapplyadam_m: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+adam_adam_update_4_resourceapplyadam_v: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_2_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+sequential/lstm/strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/packed: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/packed: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read_1/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read_2/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/PartitionedCall: (PartitionedCall): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/SquaredDifference: (SquaredDifference): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/Mean: (Mean): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/num_elements/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/range: (Range): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/value: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+range: (Range): /job:localhost/replica:0/task:0/device:GPU:0
+Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+range_1: (Range): /job:localhost/replica:0/task:0/device:GPU:0
+Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp_1: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/BroadcastGradientArgs: (BroadcastGradientArgs): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/div_no_nan: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Neg: (Neg): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/div_no_nan_1: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/div_no_nan_2: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Tile: (Tile): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Tile_1: (Tile): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Maximum: (Maximum): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/floordiv: (FloorDiv): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Tile: (Tile): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/truediv: (RealDiv): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/mul_1: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Neg: (Neg): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/sequential/dense/BiasAdd/BiasAddGrad: (BiasAddGrad): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/sequential/dense/MatMul/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/sequential/dense/MatMul/MatMul_1: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/PartitionedCall: (PartitionedCall): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Cast/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/add: (AddV2): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Cast_1: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Cast_2/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Cast_3/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Pow: (Pow): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Pow_1: (Pow): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Sqrt: (Sqrt): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_1: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/truediv: (RealDiv): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_2: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_3: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_4: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_5: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_6: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Identity_7: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/IdentityN: (IdentityN): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/update/ResourceApplyAdam: (ResourceApplyAdam): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/update_1/ResourceApplyAdam: (ResourceApplyAdam): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/update_2/ResourceApplyAdam: (ResourceApplyAdam): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/update_3/ResourceApplyAdam: (ResourceApplyAdam): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/update_4/ResourceApplyAdam: (ResourceApplyAdam): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/group_deps: (NoOp): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/AssignAddVariableOp: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan/ReadVariableOp_1: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp_2: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/packed/1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/packed/1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/Mean/reduction_indices: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/num_elements: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/Rank: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/range/start: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+mean_squared_error/weighted_loss/range/delta: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Rank: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+range/start: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+range/delta: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Rank_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+range_1/start: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+range_1/delta: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/ones: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/value/Shape_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Reshape/shape_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Reshape_1/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/weighted_loss/Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Maximum/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Maximum/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/floordiv/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Tile/multiples: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradient_tape/mean_squared_error/scalar: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/zeros: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/zeros_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/zeros_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/gradients/zeros_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/add/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_1/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_2/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/sub_3/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Adam/Adam/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+inputs: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+kernel: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+recurrent_kernel: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+bias: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_0: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_1: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+split: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+split_1: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+split_2: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_1: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_2: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_3: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_2: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_4: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_3: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_5: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_4: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_6: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_5: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_7: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_6: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_8: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_7: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_8: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_9: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_10: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_11: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_12: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_13: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_14: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_15: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1_0: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+CudnnRNN: (CudnnRNN): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+Squeeze: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+Squeeze_1: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_2: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_4: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+cudnnrnn_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+expanddims_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+expanddims_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+cudnnrnn_0_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+cudnnrnn_1_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+cudnnrnn_2_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1_axis_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_1_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_2_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_3_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_4_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_5_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_6_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_7_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_8_perm_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+split_2_split_dim_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+split_split_dim_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+split_1_split_dim_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+concat_axis_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+init_h: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+init_c: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_1/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split_1/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+zeros_like: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+concat/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split_2/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_1/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_2/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_3/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_4/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_5/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_6/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_7/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_8/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_2/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+runtime: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+placeholder: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_zeros_like_cudnnrnn: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_transpose: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_expanddims: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_expanddims_1: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_concat_1: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_cudnnrnn: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_cudnnrnn_1: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_cudnnrnn_grad_cudnnrnnbackprop_cudnnrnn_2: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_grad_invertpermutation_transpose_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_concat_1_grad_mod_concat_1_axis: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_1_grad_invertpermutation_transpose_1_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_2_grad_invertpermutation_transpose_2_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_3_grad_invertpermutation_transpose_3_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_4_grad_invertpermutation_transpose_4_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_5_grad_invertpermutation_transpose_5_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_6_grad_invertpermutation_transpose_6_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_7_grad_invertpermutation_transpose_7_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_transpose_8_grad_invertpermutation_transpose_8_perm: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_split_2_grad_concat_split_2_split_dim: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_split_grad_concat_split_split_dim: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_split_1_grad_concat_split_1_split_dim: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients_concat_grad_mod_concat_axis: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_0: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_4: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_2_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Squeeze_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Squeeze_1_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/AddN: (AddN): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/StridedSliceGrad: (StridedSliceGrad): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/zeros_like: (ZerosLike): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/CudnnRNN_grad/CudnnRNNBackprop: (CudnnRNNBackprop): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_1_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/mod: (FloorMod): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/ConcatOffset: (ConcatOffset): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_1: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_2: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_3: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_4: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_5: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_6: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_7: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_8: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_9: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_10: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_11: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_12: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_13: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_14: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Slice_15: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_1_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_2_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_3_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_4_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_5_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_6_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_7_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_8_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_9_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_10_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_11_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_12_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_13_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_14_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_15_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_1_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_1_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_2_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_2_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_3_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_3_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_4_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_4_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_5_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_5_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_6_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_6_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_7_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_7_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_8_grad/InvertPermutation: (InvertPermutation): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/transpose_8_grad/transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/split_2_grad/concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/split_grad/concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/split_1_grad/concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/mod: (FloorMod): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/ConcatOffset: (ConcatOffset): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/Slice: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/Slice_1: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_4: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_5: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_3_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+identity_4_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+identity_5_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+placeholder_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+placeholder_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+placeholder_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+placeholder_4: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_2_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Squeeze_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Squeeze_1_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/StridedSliceGrad/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/StridedSliceGrad/begin: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/StridedSliceGrad/end: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/strided_slice_grad/StridedSliceGrad/strides: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/ExpandDims_1_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Rank: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_4: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_5: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_6: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_7: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_8: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_9: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_10: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_11: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_12: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_13: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_14: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_1_grad/Shape_15: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_1_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_2_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_3_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_4_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_5_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_6_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_7_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_8_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_9_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_10_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_11_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_12_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_13_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_14_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_15_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/Rank: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/concat_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+gradients/con94/94 - 2s - loss: 0.0333 - 2s/epoch - 21ms/step
+Epoch 2/100
+94/94 - 0s - loss: 0.0150 - 173ms/epoch - 2ms/step
+Epoch 3/100
+94/94 - 0s - loss: 0.0117 - 176ms/epoch - 2ms/step
+Epoch 4/100
+94/94 - 0s - loss: 0.0106 - 175ms/epoch - 2ms/step
+Epoch 5/100
+94/94 - 0s - loss: 0.0096 - 173ms/epoch - 2ms/step
+Epoch 6/100
+94/94 - 0s - loss: 0.0085 - 175ms/epoch - 2ms/step
+Epoch 7/100
+94/94 - 0s - loss: 0.0075 - 173ms/epoch - 2ms/step
+Epoch 8/100
+94/94 - 0s - loss: 0.0066 - 175ms/epoch - 2ms/step
+Epoch 9/100
+94/94 - 0s - loss: 0.0059 - 174ms/epoch - 2ms/step
+Epoch 10/100
+94/94 - 0s - loss: 0.0051 - 178ms/epoch - 2ms/step
+Epoch 11/100
+94/94 - 0s - loss: 0.0045 - 176ms/epoch - 2ms/step
+Epoch 12/100
+94/94 - 0s - loss: 0.0039 - 173ms/epoch - 2ms/step
+Epoch 13/100
+94/94 - 0s - loss: 0.0034 - 174ms/epoch - 2ms/step
+Epoch 14/100
+94/94 - 0s - loss: 0.0031 - 176ms/epoch - 2ms/step
+Epoch 15/100
+94/94 - 0s - loss: 0.0028 - 175ms/epoch - 2ms/step
+Epoch 16/100
+94/94 - 0s - loss: 0.0026 - 176ms/epoch - 2ms/step
+Epoch 17/100
+94/94 - 0s - loss: 0.0023 - 170ms/epoch - 2ms/step
+Epoch 18/100
+94/94 - 0s - loss: 0.0022 - 174ms/epoch - 2ms/step
+Epoch 19/100
+94/94 - 0s - loss: 0.0023 - 171ms/epoch - 2ms/step
+Epoch 20/100
+94/94 - 0s - loss: 0.0021 - 174ms/epoch - 2ms/step
+Epoch 21/100
+94/94 - 0s - loss: 0.0021 - 179ms/epoch - 2ms/step
+Epoch 22/100
+94/94 - 0s - loss: 0.0020 - 193ms/epoch - 2ms/step
+Epoch 23/100
+94/94 - 0s - loss: 0.0020 - 215ms/epoch - 2ms/step
+Epoch 24/100
+94/94 - 0s - loss: 0.0020 - 219ms/epoch - 2ms/step
+Epoch 25/100
+94/94 - 0s - loss: 0.0021 - 213ms/epoch - 2ms/step
+Epoch 26/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 27/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 28/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 29/100
+94/94 - 0s - loss: 0.0021 - 216ms/epoch - 2ms/step
+Epoch 30/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 31/100
+94/94 - 0s - loss: 0.0020 - 216ms/epoch - 2ms/step
+Epoch 32/100
+94/94 - 0s - loss: 0.0021 - 216ms/epoch - 2ms/step
+Epoch 33/100
+94/94 - 0s - loss: 0.0021 - 219ms/epoch - 2ms/step
+Epoch 34/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 35/100
+94/94 - 0s - loss: 0.0021 - 218ms/epoch - 2ms/step
+Epoch 36/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 37/100
+94/94 - 0s - loss: 0.0021 - 220ms/epoch - 2ms/step
+Epoch 38/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 39/100
+94/94 - 0s - loss: 0.0020 - 229ms/epoch - 2ms/step
+Epoch 40/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 41/100
+94/94 - 0s - loss: 0.0020 - 225ms/epoch - 2ms/step
+Epoch 42/100
+94/94 - 0s - loss: 0.0020 - 224ms/epoch - 2ms/step
+Epoch 43/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 44/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 45/100
+94/94 - 0s - loss: 0.0021 - 221ms/epoch - 2ms/step
+Epoch 46/100
+94/94 - 0s - loss: 0.0020 - 224ms/epoch - 2ms/step
+Epoch 47/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 48/100
+94/94 - 0s - loss: 0.0021 - 227ms/epoch - 2ms/step
+Epoch 49/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 50/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 51/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 52/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 53/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 54/100
+94/94 - 0s - loss: 0.0020 - 227ms/epoch - 2ms/step
+Epoch 55/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 56/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 57/100
+94/94 - 0s - loss: 0.0020 - 225ms/epoch - 2ms/step
+Epoch 58/100
+94/94 - 0s - loss: 0.0020 - 226ms/epoch - 2ms/step
+Epoch 59/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 60/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 61/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 62/100
+94/94 - 0s - loss: 0.0021 - 226ms/epoch - 2ms/step
+Epoch 63/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 64/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 65/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 66/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 67/100
+94/94 - 0s - loss: 0.0021 - 222ms/epoch - 2ms/step
+Epoch 68/100
+94/94 - 0s - loss: 0.0020 - 226ms/epoch - 2ms/step
+Epoch 69/100
+94/94 - 0s - loss: 0.0020 - 219ms/epoch - 2ms/step
+Epoch 70/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 71/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 72/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 73/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 74/100
+94/94 - 0s - loss: 0.0021 - 219ms/epoch - 2ms/step
+Epoch 75/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 76/100
+94/94 - 0s - loss: 0.0020 - 224ms/epoch - 2ms/step
+Epoch 77/100
+94/94 - 0s - loss: 0.0020 - 224ms/epoch - 2ms/step
+Epoch 78/100
+94/94 - 0s - loss: 0.0020 - 220ms/epoch - 2ms/step
+Epoch 79/100
+94/94 - 0s - loss: 0.0020 - 219ms/epoch - 2ms/step
+Epoch 80/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 81/100
+94/94 - 0s - loss: 0.0019 - 220ms/epoch - 2ms/step
+Epoch 82/100
+94/94 - 0s - loss: 0.0021 - 222ms/epoch - 2ms/step
+Epoch 83/100
+94/94 - 0s - loss: 0.0020 - 225ms/epoch - 2ms/step
+Epoch 84/100
+94/94 - 0s - loss: 0.0019 - 220ms/epoch - 2ms/step
+Epoch 85/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 86/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 87/100
+94/94 - 0s - loss: 0.0021 - 225ms/epoch - 2ms/step
+Epoch 88/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+Epoch 89/100
+94/94 - 0s - loss: 0.0020 - 219ms/epoch - 2ms/step
+Epoch 90/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 91/100
+94/94 - 0s - loss: 0.0020 - 217ms/epoch - 2ms/step
+Epoch 92/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 93/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 94/100
+94/94 - 0s - loss: 0.0020 - 225ms/epoch - 2ms/step
+Epoch 95/100
+94/94 - 0s - loss: 0.0021 - 225ms/epoch - 2ms/step
+Epoch 96/100
+94/94 - 0s - loss: 0.0020 - 218ms/epoch - 2ms/step
+Epoch 97/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 98/100
+94/94 - 0s - loss: 0.0020 - 223ms/epoch - 2ms/step
+Epoch 99/100
+94/94 - 0s - loss: 0.0020 - 222ms/epoch - 2ms/step
+Epoch 100/100
+94/94 - 0s - loss: 0.0020 - 221ms/epoch - 2ms/step
+cat_grad/Shape_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+value: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+AssignVariableOp: (AssignVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+MapDataset: (MapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+count: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+RepeatDataset: (RepeatDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ZipDataset: (ZipDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+num__parallel__calls: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ParallelMapDatasetV2: (ParallelMapDatasetV2): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+OptionsDataset: (OptionsDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+OptionsDataset: (OptionsDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+AnonymousIteratorV3: (AnonymousIteratorV3): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+range: (Range): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+range/start: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/limit: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/delta: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Slice: (Slice): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:CPU:0
+TensorSliceDataset: (TensorSliceDataset): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1: (Slice): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+ConcatenateDataset: (ConcatenateDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/begin: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/size: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1/begin: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1/size: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+args_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2: (GatherV2): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2/axis: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+sequential_lstm_read_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_lstm_read_1_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_lstm_read_2_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+sequential/lstm/Shape: (Shape): /job:localhost/replica:0/task:0/device:CPU:0
+sequential/lstm/strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/packed: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/packed: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read_1/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Read_2/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/PartitionedCall: (PartitionedCall): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/packed/1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/packed/1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/lstm/zeros_1/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+inputs: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+init_h: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+init_c: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+kernel: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+recurrent_kernel: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+bias: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+transpose: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_1: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+split: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+split_1: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+split_2: (Split): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_1: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_2: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_3: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_2: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_4: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_3: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_5: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_4: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_6: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_5: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_7: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_6: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_8: (Transpose): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_7: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_8: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_9: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_10: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_11: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_12: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_13: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_14: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+Reshape_15: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+CudnnRNN: (CudnnRNN): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+Squeeze: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+Squeeze_1: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_2: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_4: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+transpose/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims_1/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split_1/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+zeros_like: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+concat/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+split_2/split_dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_1/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_2/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_3/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_4/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_5/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_6/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_7/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+transpose_8/perm: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+concat_1/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_2: (Const): /job:localhost/re
+1/3 [=========>....................] - ETA: 0s
+3/3 [==============================] - 0s 997us/step
+plica:0/task:0/device:GPU:0
+ExpandDims_2/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+runtime: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+begin: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+end: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+strides: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+StridedSlice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+values_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+values_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+values_2: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Pack: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+begin: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+end: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+strides: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+StridedSlice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+x: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+y: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Equal: (Equal): /job:localhost/replica:0/task:0/device:GPU:0
+z_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+reduction__indices: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+All: (All): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+MapDataset: (MapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+buffer__size: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+PrefetchDataset: (PrefetchDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+FlatMapDataset: (FlatMapDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+components_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+count: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+RepeatDataset: (RepeatDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+input__datasets_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ZipDataset: (ZipDataset): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+input__dataset: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+num__parallel__calls: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+ParallelMapDatasetV2: (ParallelMapDatasetV2): /job:localhost/replica:0/task:0/device:CPU:0
+handle_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+range: (Range): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+range/start: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/limit: 
+1/2 [==============>...............] - ETA: 0s
+2/2 [==============================] - 0s 997us/step
+Train Score: 22.70 RMSE
+Test Score: 49.31 RMSE
+(Const): /job:localhost/replica:0/task:0/device:CPU:0
+range/delta: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Slice: (Slice): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:CPU:0
+TensorSliceDataset: (TensorSliceDataset): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1: (Slice): /job:localhost/replica:0/task:0/device:CPU:0
+TensorDataset: (TensorDataset): /job:localhost/replica:0/task:0/device:CPU:0
+ConcatenateDataset: (ConcatenateDataset): /job:localhost/replica:0/task:0/device:CPU:0
+NoOp: (NoOp): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/begin: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice/size: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1/begin: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+Slice_1/size: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+args_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+args_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2: (GatherV2): /job:localhost/replica:0/task:0/device:CPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:CPU:0
+GatherV2/axis: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+values_0: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+values_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+Pack: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+values_0: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+values_1: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+axis: (_DeviceArg): /job:localhost/replica:0/task:0/device:CPU:0
+ConcatV2: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+output_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/419559474394783088/d00c2b32e10645b1972b62ae17ba7f56/artifacts
+end_time: 1712835324430
+entry_point_name: ''
+experiment_id: '419559474394783088'
+lifecycle_stage: active
+run_id: d00c2b32e10645b1972b62ae17ba7f56
+run_name: brawny-snipe-973
+run_uuid: d00c2b32e10645b1972b62ae17ba7f56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712835322434
+status: 3
+tags: []
+user_id: Chanda
